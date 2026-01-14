@@ -32,6 +32,12 @@ public:
 		DWORD pid = _pid;
 		return pid;
 	}
+	template<class T> T RPM(DWORD address)
+	{
+		T buf;
+		ReadProcessMemory(_handle, &address, buf, sizeof(T), 0);
+		return buf;
+	}
 private:
 	DWORD64 _pid;
 	HANDLE _handle;
