@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Cs2 External/Cs2 External.vcxproj" />
+  <Project Path="Cs2 External/Cs2 External.vcxproj" Id="3a56799b-4e0c-42d5-afb1-7a00fb2ec740" />
 </Solution>

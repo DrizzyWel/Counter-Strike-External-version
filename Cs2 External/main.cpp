@@ -1,5 +1,6 @@
 #include "memory.h"
 #include <iostream>
+#include <vector>
 using namespace std;
 Memory mem;
 int main()
